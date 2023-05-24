@@ -132,7 +132,7 @@ input[type="checkbox"]{
 }
 #buttonSign:hover{
     transform: translateY(-6px);
-    box-shadow: 4px 10px 20px 4px #155dba;
+    box-shadow: 4px 10px 20px 10px #155dba;
     transition-duration: 0.1s;
     cursor: pointer;
 }
