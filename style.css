@@ -8,7 +8,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background:linear-gradient(180deg, #303030 19%, #0C70F2 50%);
+    background:linear-gradient(180deg, #0C70F2 15%, #303030 50%);
     background-repeat: no-repeat;
 }
 #principal{
@@ -121,7 +121,7 @@ form input::placeholder{
 input[type="checkbox"]{
     transform: scale(1.2);
 }
-input[type="submit"] {
+#buttonSign {
     color: #FFFFFF;
     font-family: var(--fonte-padrao);
     font-size: 17px;
@@ -129,5 +129,10 @@ input[type="submit"] {
     width: 450px;
     background-color: var(--azul-dnc);
     margin-top: 50px;
-    box-shadow: 4px 3px 10px #155dba;
+}
+#buttonSign:hover{
+    transform: translateY(-6px);
+    box-shadow: 4px 10px 20px 4px #155dba;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
