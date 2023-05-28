@@ -244,6 +244,9 @@ footer .line2 a:first-child{
         width: 95%;
         margin-left: 9px;
     }
+    footer .line1{
+        flex-direction: column;
+    }
 
 
 }
