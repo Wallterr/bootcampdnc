@@ -41,7 +41,7 @@ body{
 }
 #principal button{
     margin-right: 5%;
-    background-color: var(--azul-dnc);
+    background-color: #155dba;
     border: none;
     height: 40px;
     width: 80px;
@@ -135,4 +135,115 @@ input[type="checkbox"]{
     box-shadow: 4px 10px 20px 10px #155dba;
     transition-duration: 0.1s;
     cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: var(--azul-dnc);
+}
+footer .line1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+footer h5{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: var(--fonte-padrao);
+    font-weight: 800px;
+    font-size: 18px;
+    margin-bottom: 17px;
+    background-color: var(--preto-dnc);
+    border-radius: 5px;
+    padding:4px 6px 4px 6px ;
+}
+footer ul li{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+}
+footer ul li a:hover{
+    color: var(--cinza-hover);
+}
+footer ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .adress{
+    color: #FFFFFF;
+    font-weight: 800px;
+    font-size: 17px;
+    text-align: center;
+}
+footer .line2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+    height: 30px;
+}
+footer .line2 a{
+    font-family: var(--fonte-padrao);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500px;
+    text-decoration: none;
+    padding: 5px;
+}
+footer .line2 a:hover{
+    color: var(--cinza-hover);
+}
+footer .line2 a:first-child{
+    border-right: 2px solid #FFFFFF;
+}
+
+@media only screen and (max-width: 600px){
+
+    #principal{
+        flex-direction: column;
+        height: auto;
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    #menu a{
+        display: flex;
+        height: 30px;
+        align-items: center;
+    }
+    #principal button{
+        width: 50%;
+        margin: 0px;
+        margin-top: 5px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    section h2{
+        font-size: 15px;
+    }
+    form{
+        width: 95%;
+        font-size: 15px;
+    }
+    #buttonSign{
+        width: 95%;
+        margin-left: 9px;
+    }
+
+
 }
